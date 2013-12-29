@@ -71,7 +71,8 @@ var app = {
             console.log(result);
             
             if (result.format == "EAN_13" || result.format == "EAN_8") {
-                window.plugins.childBrowser.showWebPage('http://www.getbook.co.uk/search?q='+result.text, {});
+                window.open('http://www.getbook.co.uk/search?q='+result.text, '_blank', 'location=yes');
+                //window.plugins.childBrowser.showWebPage('http://www.getbook.co.uk/search?q='+result.text, {});
             }
             
 
