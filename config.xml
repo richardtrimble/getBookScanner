@@ -6,7 +6,7 @@
     <name>getBook Scanner</name>
 
     <description>
-        Scans book isbns and searches for them on getBook.co.uk
+        Scans book isbn barcodes and searches for the lowest price on getBook.co.uk
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
